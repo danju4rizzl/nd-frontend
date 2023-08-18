@@ -1,16 +1,139 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nordatech.com.ng | Welcome</title>
-  </head>
-  <body>
-  <div class="container py-4 px-3 mx-auto">
-      <h1>Hello, Bootstrap and Vite!</h1>
-      <button class="btn btn-success">Success button</button>
-    </div>
-    <script type="module" src="/js/main.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Nordatech.com.ng | Welcome</title>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg bg-white">
+				<div class="container">
+					<!-- The navbar logo and site name -->
+					<a class="navbar-brand" href="#">
+						<img src="./img/logo.svg" alt="NordaTech Logo" class="w-25" />
+					</a>
+					<!-- Button to toggle navigation menu on smaller screens -->
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<!-- Navigation links -->
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ms-auto gap-lg-4">
+							<li class="nav-item">
+								<a class="nav-link text-success active fw-medium" href="/"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./about.html">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./service.html">Service</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./contact.html">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section class="hero d-grid align-items-center">
+				<div class="container">
+					<h1 class="d-grid text-white">
+						<span class="d-flex align-items-center">
+							PUSHING
+							<svg
+								width="60"
+								height="45"
+								viewBox="0 0 100 64"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M41.3341 50.6667H29.3341L42.6674 32.0001L29.3341 13.3334H41.3341L54.6674 32.0001L41.3341 50.6667Z"
+									fill="white"
+								/>
+								<path
+									d="M22.6674 50.6667H10.6674L24.0008 32.0001L10.6674 13.3334H22.6674L36.0008 32.0001L22.6674 50.6667Z"
+									fill="#48DE4E"
+								/>
+								<path
+									d="M77.3341 50.6667H65.3341L78.6674 32.0001L65.3341 13.3334H77.3341L90.6674 32.0001L77.3341 50.6667Z"
+									fill="white"
+								/>
+								<path
+									d="M58.6674 50.6667H46.6674L60.0008 32.0001L46.6674 13.3334H58.6674L72.0008 32.0001L58.6674 50.6667Z"
+									fill="#48DE4E"
+								/>
+							</svg>
+						</span>
+						<span> THE BOUNDARIES </span>
+						<span> OF EXCELLENCE AND </span>
+						<span> EXPLORING NEW FRONTIERS </span>
+					</h1>
+					<p class="w-50 text-white">
+						Providing consistent and concise professional services using the
+						best network and resources.
+					</p>
+					<button class="btn btn-light text-success fw-medium px-5 py-2">
+						Explore
+					</button>
+				</div>
+			</section>
+			<section class="about py-5">
+				<div class="container py-5">
+					<h2 class="text-center text-success">About Us</h2>
+					<div class="row py-4 justify-content-center">
+						<div class="col-md-5 px-md-5">
+							<p>
+								NordaTech Energy LTD is a general energy contracting,
+								outsourcing company, and solutions provider which offers
+								innovative solutions to our customers with an overarching aim of
+								outstanding deliverability. Key to our success is driven by our
+								local and international partners who are committed to making
+								positive impact in the energy industry.
+							</p>
+							<p>
+								At NordaTech Energy LTD, our core values center around
+								environmental stewardship, technological excellence, and a deep
+								commitment to making a lasting impact. With a firm belief in the
+								importance of reducing carbon emissions and mitigating climate
+								change, we're devoted to creating a sustainable energy ecosystem
+								that prioritizes the planet's well-being.
+							</p>
+						</div>
+						<div class="col-md-6 px-md-5">
+							<p>
+								From solar and wind power to advanced energy storage solutions,
+								we're dedicated to finding smarter, more efficient ways to
+								generate, store, and distribute clean energy.
+							</p>
+							<p>
+								As advocates for change, we recognize that our efforts extend
+								beyond technological breakthroughs. We actively engage with
+								communities, partner with organizations, and inspire individuals
+								to adopt greener lifestyles. By promoting awareness and
+								education, we're fostering a global shift towards cleaner energy
+								practices.
+							</p>
+							<button class="btn btn-success-alt px-5 my-2">Know More</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script type="module" src="/js/main.js"></script>
+	</body>
 </html>
