@@ -3,8 +3,7 @@ $success: #23bc23;
 $secondary: #ebf8ef;
 
 // TODO extend bootstrap colors
-$btn-success-alt: #2b392b;
-
+$btn-success-alt: #022902;
 
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
@@ -19,7 +18,7 @@ body {
 
 h1,
 h2,
-h3, 
+h3,
 h5 {
 	font-family: "Goldman", cursive;
 	text-transform: uppercase;
@@ -30,6 +29,7 @@ h5 {
 	color: #fff;
 	transition: all 500ms;
 }
+
 .btn-success-alt:hover {
 	color: #fff;
 	background: $success;
@@ -37,7 +37,15 @@ h5 {
 
 // Hero section styling
 .hero {
-	background: url("https://placehold.co/1200x400/3d3d3d/000");
+	/*
+Todo use this code below to add the hero image with gradient
+*/
+	background: linear-gradient(
+			to right,
+			rgba($btn-success-alt, 0.8),
+			rgba($btn-success-alt, 0.5)
+		),
+		url("../img/hero-homepage.png");
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -45,7 +53,7 @@ h5 {
 }
 
 .hero-about {
-	background: url("../img/image9.png");
+	background: url("../img/hero-about.png");
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -62,8 +70,7 @@ h5 {
 
 .rounded-6 {
 	border-radius: 3.5rem;
-} 
-
+}
 
 .input-box {
 	background-color: #d0ddd5;
