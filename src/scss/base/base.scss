@@ -1,2 +1,15 @@
-@forward "./base";
-@forward "./typography";
+// Import Google fonts
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Rubik:wght@400;500&display=swap");
+
+// Global custom fonts
+body {
+	font-family: "Rubik", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h5 {
+	font-family: "Goldman", cursive;
+	text-transform: uppercase;
+}

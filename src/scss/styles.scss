@@ -1,3 +1,6 @@
+@use "./abstracts";
+// @use "./components";
+
 $success: #23bc23;
 
 $secondary: #ebf8ef;
@@ -6,12 +9,11 @@ $secondary: #ebf8ef;
 $btn-success-alt: #022902;
 
 // Import all of Bootstrap's CSS
-@import "bootstrap/scss/bootstrap";
+// @import "bootstrap/scss/bootstrap";
 
 // Import Google fonts
 @import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Rubik:wght@400;500&display=swap");
 
-// Global custom fonts
 body {
 	font-family: "Rubik", sans-serif;
 }
@@ -22,17 +24,6 @@ h3,
 h5 {
 	font-family: "Goldman", cursive;
 	text-transform: uppercase;
-}
-
-.btn-success-alt {
-	background: $btn-success-alt;
-	color: #fff;
-	transition: all 500ms;
-}
-
-.btn-success-alt:hover {
-	color: #fff;
-	background: $success;
 }
 
 // Hero section styling

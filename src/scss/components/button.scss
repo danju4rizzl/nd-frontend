@@ -1,0 +1,12 @@
+@use "../abstracts/variables";
+
+.btn-success-alt {
+	background: $btn-success-alt;
+	color: #fff;
+	transition: all 500ms;
+}
+
+.btn-success-alt:hover {
+	color: #fff;
+	background: $success;
+}
