@@ -1,0 +1,15 @@
+@use "./variables.scss";
+
+// This mixin helps add hero image with styles
+@mixin hero-image($image-url) {
+	background: linear-gradient(
+			to right,
+			rgba($btn-success-alt, 0.8),
+			rgba($btn-success-alt, 0.5)
+		),
+		url($image-url);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+}
