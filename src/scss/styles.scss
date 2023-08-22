@@ -74,3 +74,75 @@ Todo use this code below to add the hero image with gradient
 .label-text {
 	color: #2b392b;
 }
+
+// footer
+
+// Define variables if needed
+$font-color: #FFF;
+$font-family: "Rubik";
+$font-size: 22px;
+$font-style: normal;
+$font-weight: 400;
+$line-height: normal;
+
+footer {
+	// height: 809px;
+	// flex-shrink: 0;
+	background: #1C421C;
+  }
+
+
+
+// Define styles for the .reserve class
+.reserve {
+  color: $font-color;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: $font-family;
+  font-size: $font-size;
+  font-style: $font-style;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+.layer-x-0020-1,
+.layer-x-0020-1 * {
+  box-sizing: border-box;
+}
+.layer-x-0020-1 {
+  position: relative;
+  transform: translate(-377.78px, 486.4px);
+  overflow: visible;
+}
+
+footer .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+// .quick-links-column {
+// 	position: relative;
+// 	z-index: 1;
+//   }
+  
+//   .quick-links {
+// 	background: url('data:image/svg+xml;utf8,<svg class=&quot;vector&quot; width=&quot;947&quot; height=&quot;882&quot; viewBox=&quot;0 0 947 882&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;> ... </svg>');
+// 	background-size: cover;
+// 	position: relative;
+// 	padding: 20px;
+// 	z-index: 2;
+// 	color: #fff;
+//   }
+  
+//   .quick-links h5 {
+// 	margin-bottom: 10px;
+//   }
+  
+//   .quick-links ul li {
+// 	margin-bottom: 5px;
+//   }
+  
