@@ -86,11 +86,18 @@ $font-weight: 400;
 $line-height: normal;
 
 footer {
-	// height: 809px;
-	// flex-shrink: 0;
-	background: #1C421C;
+	position: relative; 
+	width: 100%;
+    background: url("./img/group-45.png");
+	// height: 100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
   }
 
+  .footer-overlay {
+    z-index: 1;
+  }
 
 
 // Define styles for the .reserve class
