@@ -85,15 +85,14 @@ $font-style: normal;
 $font-weight: 400;
 $line-height: normal;
 
-footer {
-	position: relative; 
-	width: 100%;
-    background: url("./img/group-45.png");
-	// height: 100px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: bottom center;
-  }
+  
+	.footer {
+		height: 95vh;
+		background: url("./img/group-45.png");
+		background-size: cover;
+		background-position: center;
+		position: relative;
+	}
 
   .footer-overlay {
     z-index: 1;
@@ -131,25 +130,25 @@ footer .col-lg-6 {
 }
 
 
-// .quick-links-column {
-// 	position: relative;
-// 	z-index: 1;
-//   }
+.quick-links-column {
+	position: relative;
+	z-index: 1;
+  }
   
-//   .quick-links {
-// 	background: url('data:image/svg+xml;utf8,<svg class=&quot;vector&quot; width=&quot;947&quot; height=&quot;882&quot; viewBox=&quot;0 0 947 882&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;> ... </svg>');
-// 	background-size: cover;
-// 	position: relative;
-// 	padding: 20px;
-// 	z-index: 2;
-// 	color: #fff;
-//   }
+  .quick-links {
+	background: url('data:image/svg+xml;utf8,<svg class=&quot;vector&quot; width=&quot;947&quot; height=&quot;882&quot; viewBox=&quot;0 0 947 882&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;> ... </svg>');
+	background-size: cover;
+	position: relative;
+	padding: 20px;
+	z-index: 2;
+	color: #fff;
+  }
   
-//   .quick-links h5 {
-// 	margin-bottom: 10px;
-//   }
+  .quick-links h5 {
+	margin-bottom: 10px;
+  }
   
-//   .quick-links ul li {
-// 	margin-bottom: 5px;
-//   }
+  .quick-links ul li {
+	margin-bottom: 5px;
+  }
   
