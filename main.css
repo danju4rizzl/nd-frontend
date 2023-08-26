@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Rubik:wght@400;500&display=swap");
+
+:root {
+	--color-primary: #23bc23;
+	--color-primary-alt: #169916;
+	--color-secondary: #314131;
+	--color-tertiary: #1c3e1c;
+	--color-light: #ebf8ef;
+	--color-gray: #d0ddd5;
+	--color-tint: #1c3e1c93;
+	--color-label: #445c44;
+}
+
+body {
+	font-family: "Rubik", sans-serif;
+}
+
+h2,
+h6 .card-title,
+.card h5 {
+	color: var(--color-primary);
+}
+
+h1,
+h2,
+h3,
+h5 {
+	font-family: "Goldman", cursive;
+	text-transform: uppercase;
+}
+
+form .form-control {
+	background-color: var(--color-gray);
+}
+
+form label {
+	color: var(--color-label);
+}
+
+.navbar-brand {
+	max-width: 12rem;
+}
+@media (max-width: 567px) {
+	.navbar-brand {
+		max-width: 10rem;
+	}
+}
+
+/* Custom classes are below */
+.nd-bg-light {
+	background-color: var(--color-light);
+}
+
+.nd-text-primary {
+	color: var(--color-primary);
+}
+
+.nd-text-dark {
+	color: var(--color-tertiary);
+}
+
+.nd-text-darker {
+	color: var(--color-secondary);
+}
+
+.hero-home {
+	background: linear-gradient(45deg, var(--color-tint), var(--color-tint)),
+		url("./img/hero-home.jpg");
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+}
+.hero-about {
+	background: linear-gradient(45deg, var(--color-tint), var(--color-tint)),
+		url("./img/hero-about.jpg");
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+}
+
+.hero-services {
+	background: linear-gradient(45deg, var(--color-tint), var(--color-tint)),
+		url("./img/hero-services.jpg");
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+}
+
+.hero-contact {
+	background: linear-gradient(45deg, var(--color-tint), var(--color-tint)),
+		url("./img/hero-contact.jpg");
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+}
+
+.btn-success-alt {
+	background-color: var(--color-secondary);
+	color: var(--color-light);
+	transition: all 300ms ease;
+}
+
+.btn-success-alt:hover {
+	background-color: var(--color-primary);
+	color: var(--color-light);
+}
